@@ -23,4 +23,8 @@ class Peserta extends Model
         'created_by_id'
     ];
 
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'created_by_id');
+    }
 }

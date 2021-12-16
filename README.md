@@ -15,6 +15,9 @@
 1. `npm install && npm run dev`
 1. `php artisan serve`
 
+## Testing
+1. `php artisan test`(Warning this will drop the database)
+
 ## Test User
 ```
 email: admin@gmail.com
