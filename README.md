@@ -2,6 +2,7 @@
 
 ## Requirements
 - php >= 8.0
+- composer >= 2
 - mysql >= 8.0
 - node >= 12
 - docker and docker-compose (optional)
