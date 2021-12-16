@@ -14,5 +14,11 @@
 1. `npm install && npm run dev`
 1. `php artisan serve`
 
+## Test User
+```
+email: admin@gmail.com
+password: admin
+```
+
 ## Troubleshoot
 1. if css style doesn't load properly rerun `npm run dev` again
