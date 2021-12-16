@@ -29,7 +29,7 @@ class PesertaController extends Controller
         $offset = ($page - 1) * $pageSize;
         $numData = Peserta::count();
         $numPage = ceil($numData / $limit);
-        $data = Peserta::offset($offset)->limit($limit)->get();
+        $data = Peserta::orderBy('id', 'DESC')->offset($offset)->limit($limit)->get();
         return view('peserta.index', [
             'page' => $page,
             'pageSize' => $pageSize,
